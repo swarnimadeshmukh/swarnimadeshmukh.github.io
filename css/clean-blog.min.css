@@ -103,16 +103,21 @@ hr.small {
 */
 
 .navbar-custom .navbar-header .navbar-toggle {
-    color: #000;
+    background-color: #000;
+    color: #FFF;
     font-weight: 800;
     text-transform: uppercase;
     font-size: 12px;
     border: none;
 }
 
-.navbar-custom .navbar-header .navbar-toggle {
-    background-color: #fff;
-    color: #000;
+
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FFF;
+    color:#000;
+    border: none;
 }
 
 .navbar-custom .nav li a {
@@ -136,7 +141,7 @@ hr.small {
 @media only screen and (min-width:768px) {
     .navbar-custom {
         background: 0 0;
-        border-bottom: 1px solid transparent
+         border-bottom: 1px solid transparent;
     }
     .navbar .navbar-brand {
         color: #fff;
@@ -144,7 +149,8 @@ hr.small {
     }
     .navbar-custom .navbar-brand:focus,
     .navbar-custom .navbar-brand:hover {
-        color: rgba(255, 255, 255, .8)
+        /*color: rgba(255, 255, 255, .8)*/
+        color: #00b0ff;
     }
     .navbar .nav li a {
         color: #fff;
@@ -152,7 +158,8 @@ hr.small {
     }
     .navbar-custom .nav li a:focus,
     .navbar-custom .nav li a:hover {
-        color: rgba(255, 255, 255, .8)
+        /*color: rgba(255, 255, 255, .8)*/
+        color:#00b0ff;
     }
     
 }
@@ -180,18 +187,18 @@ hr.small {
         transition: transform .3s
     }
     .navbar-custom.is-fixed .navbar-brand {
-        color: #333
+        color: #FFF;
     }
     .navbar-custom.is-fixed .navbar-brand:focus,
     .navbar-custom.is-fixed .navbar-brand:hover {
-        color: #0085A1
+        color: #00b0ff
     }
     .navbar-custom.is-fixed .nav li a {
-        color: #333
+        color: #FFF
     }
     .navbar-custom.is-fixed .nav li a:focus,
     .navbar-custom.is-fixed .nav li a:hover {
-        color: #0085A1
+        color: #00b0ff
     }
     .navbar-custom.is-visible {
         -webkit-transform: translate3d(0, 100%, 0);
@@ -349,7 +356,7 @@ hr.small {
 .btn,
 .pager li>a,
 .pager li>span {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "PT Sans Narrow", sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1px
