@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AML</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans+Narrow" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:light,regular,bold&subset=Latin">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top"> 
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Swarnima Deshmukh</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                      <li>
+                        <a href="work.html">Work</a>
+                    </li>
+                     <li>
+                        <a href="resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>ACCOUNT MANAGER LOOKUP</h1>
+                        <span class="subheading">Software Engineer at Microsoft</span>
+                         <span class="subheading">Interface Design & Implementation | Enterprise Software | Windows Phone 8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- Post Content -->
+  
+    
+     <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                      <p> <b>* To comply with my non-disclosure agreement, I have omitted confidential information and high-fidelity prototypes from this piece. Please reach out to me directly for these artifacts. This is merely a reflection of the design process. *</b></p>
+                    <p>
+                       AccountManagerLookup is a Windows Phone 8 application that allows users to quickly contact account managers and team members of an account by searching on account name. This app was developed specifically for the sales leaders within Microsoft, who are always on-the-go.
+                    </p>
+                    
+                    <h2 class="section-heading">My Role</h2>
+                    <hr/>
+                    <p>
+                     As a part of this team, I was individually responsible for translating user needs into app features, designing wireframes and prototypes, working with stakeholders and users to ensure an optimal user experience, and implementing the visual design using XAML.
+                    </p>
+                    
+                    <h2 class="section-heading">Why create an app?</h2>
+                    <hr/>
+                                               
+                    <p>Imagine someone in the sales team in Microsoft, constantly traveling, meeting up with several account managers on a daily basis. They need quick access to account information, i.e. the manager and team associated with an account.  The current method of looking up this information was cumbersome. They had to log into a CRM (Customer Relationship Management) instance and run a search to view this information. Also, this could only be done using a laptop. Moreover, the results took a painfully long time to load, mostly because of a significant amount of ‘dross’ information accompanied with each search. Furthermore, they would have to note down the contact information associated with that account to call, text, email them. Seems like a lot of work for someone constantly on-the-go, doesn’t it?    
+                    </p>
+                    <p>
+                    A Windows Phone 8 app was a one-shot solution to this problem.
+                    </p>
+
+                    <h2 class="section-heading">What exactly does the user want?</h2>
+                    <hr/>
+                    
+                    <p>
+                   When we were introduced to this project, a lot of the user research had already been conducted through interviews, experience mapping, and personas. A detailed list of user stories had been created, which manifested into specific app requirements. We had to take the project forward from there. A high-level overview of this research can be derived from this persona. 
+                    </p>
+                    
+                    <img src="img/aml/persona.png" class="img-responsive center-block"/>
+                   
+                    <h2 class="section-heading">Designing the experience</h2>
+                    <hr/>
+                    
+                    <p>We kicked off with translating the user needs and requirements into specific app features. Once we had a concrete list of features, we moved on to delineating the flow of information within the app. This was mostly driven by the rich, qualitative data collected from personas and experience mapping. As we walked through a user’s experience when on-the-go, we ideated as a team in determining the features that were more important and should have the easiest access as opposed to features that could be lower in the information hierarchy. Soon after, we created a base version of wireframes that addressed all the user needs based on the product features. Following this, we indulged in several iterations, constantly seeing feedback from potential users and stakeholders to ensure the most optimal user-experience possible.
+                    </p>
+                    
+                     <img src="img/aml/sitenav.png" class="img-responsive center-block"/>
+                    <p>
+                    The core functionality of the app was accessing account information. The data from user research clearly pointed towards a quick search being the primary way of doing this, so we decided that the landing page would be a search page. We wanted a minimal layout, that included a search bar and icon. The search results would be displayed on the search page itself.. A critical design decision here was to auto-populate the search results  with relevant accounts, dynamically with every letter typed by the user, after the first 3 letters. This was geared towards reducing user effort and increasing intuitiveness of the app. 
+                    </p>
+                    
+                     <p>
+                   Moreover, we wanted to make the process of accessing an account as seamless as possible. This led us to design a list of recent accounts accessed by the user, available at a simple right swipe from the search page. In the same vein, we derived from the user research that users frequently accessed a bunch of accounts relevant to them. This drove the design of a list of user-created favorite accounts that would be accessible at a simple left swipe from the search page. Again, to make the process of adding an account to favorites easy, we positioned a visual cue on each search result on the search page. This design drastically reduced loading times for users. After a user searched for an account, the app stored this account information in the cache, and the app did not have to query CRM again to fetch this data, if the user accessed this account through recents or favorites.
+
+                    </p>
+                    
+                    <div class="row img-container">
+                        <div class="col-md-3">
+                            <img src="img/aml/search.png" class="img-responsive center-block "/>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/aml/searchresults.png" class="img-responsive center-block "/>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/aml/recent.png" class="img-responsive center-block "/>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/aml/favorites.png" class="img-responsive center-block "/>
+                        </div>
+                    </div>
+                    
+                    
+                    <p>Of course, the easiest way to search was by account name. However, another interesting use case was querying the CRM database for an account with an associated information other than the name. Our strategy was to retain functionality that users were familiar with, but with an enhanced user-experience. This led to the design of an advanced search option, where users could search by different IDs or account segment. Here, the team was divided between two visual cues for displaying the advanced search option, and we ran A/B tests to address this problem. 
+                    </p>
+                    
+                    <p>
+                    We designed the detail page of an account to contain contact information for the manager or team. We wanted to ensure that users could call, text, email from the app itself, and the design incorporated this need. Moreover, we thought of including Lync integration, as users would then know whether the account managers that they were trying to contact were online.
+                    </p>
+            
+                    
+                    <div class="row img-container">
+                        <div class="col-md-3">
+                            <img src="img/aml/advancedsearch.png" class="img-responsive center-block "/>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/aml/advanceddearchresults.png" class="img-responsive center-block "/>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/aml/accountinfo.png" class="img-responsive center-block "/>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/aml/contact.png" class="img-responsive center-block "/>
+                        </div>
+                    </div>
+                    
+                    <h2 class="section-heading">What did i learn?</h2>
+                    <hr/>
+                    
+                    As this was the first Windows Phone app that I worked on, it was a good experience learning to design while adhering to a style guide and ensuring that the UI controls and navigation was aligned with the Windows Marketplace requirements.
+                            I also learnt to specifically design around user needs. An account in CRM had a large amount of information associated with it, but in that context of the app, the user only wanted to view specific manager and team information. In the same vein, I constantly had to refer to the user stories to determine the kind of information that the user would want to see in the detailed account page and the condensed version that the user would want to see in the list view of accounts. 
+                  
+                    <h2 class="section-heading">Impact</h2>
+                    <hr/>
+                    <p>The app was showcased at the Microsoft Global Exchange conference held July 2014 in Atlanta, GA.</p>
+                   
+                                     
+                </div>
+            </div>
+         </div>
+    </article>
+                
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">     
+          
+                <div class="col-md-6 ">  
+                        <a href="fico.html" class="text-muted">      
+                           <i class="fa fa-chevron-circle-left fa-inverse"></i>                                
+                            Previous project               
+                        </a>
+                </div>
+                <div class="col-md-6 "  style="text-align:right">
+                        <a href="squibit.html" class="text-muted">      
+                            Next project
+                           <i class="fa fa-chevron-circle-right fa-inverse"></i>                                               
+                        </a>             
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
