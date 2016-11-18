@@ -6,7 +6,12 @@
 
 a,
 body {
-    color: #333
+    color: #333;
+}
+
+article{
+        padding-left: 5%;
+    padding-right: 5%;
 }
 
 .navbar-custom .nav li a,
