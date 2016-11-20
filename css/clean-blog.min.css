@@ -45,14 +45,14 @@ body {
 h1,
 h2,
 h6 {   
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .intro-header .site-heading .subheading{
      font-family: 'Ubuntu', sans-serif;
 }
-.navbar-custom, .post-title, h3{
-         font-family: 'PT Sans Narrow', sans-serif;
+.navbar-custom, .post-title, .tags, h3{
+         font-family: 'Josefin Sans', sans-serif;
 }
 p {
     line-height: 1.5;
@@ -116,9 +116,6 @@ hr.small {
     border: none;
 }
 
-
-
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #FFF;
     color:#000;
@@ -126,9 +123,8 @@ hr.small {
 }
 
 .navbar-custom .nav li a {
-    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 17px;
-    letter-spacing: 1px
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
@@ -255,7 +251,8 @@ hr.small {
     .intro-header .page-heading,
     .intro-header .post-heading,
     .intro-header .site-heading {
-        padding: 130px 0
+        padding-top: 100px;
+        padding-bottom:80px;
     }
     .intro-header .page-heading h1,
     .intro-header .site-heading h1 {
