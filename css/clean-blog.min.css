@@ -34,7 +34,7 @@ footer .copyright {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 200;
     -webkit-tap-highlight-color: #0085A1
 }
@@ -124,7 +124,7 @@ hr.small {
 
 .navbar-custom .nav li a {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
@@ -580,7 +580,8 @@ button:hover{
 }
 .tags{
     color: #00b0ff;
-    font-weight: 300
+    font-weight: 300;
+    font-size:18px;
 }
 .img-icon{
     max-width: 30%;
