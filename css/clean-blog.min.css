@@ -46,6 +46,7 @@ h1,
 h2,
 h6 {   
     font-family: 'Josefin Sans', sans-serif;
+    color: #000;
 }
 
 .intro-header .site-heading .subheading{
@@ -211,15 +212,8 @@ hr.small {
 }
 
 .intro-header {
-    background-color: #000;
-     
-/*    background: center center no-repeat;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: #FFF;
     margin-bottom: 50px;
-/*        background-color: #212121*/
 }
 
 .intro-header .page-heading,
