@@ -214,7 +214,7 @@ hr.small {
 
 .intro-header {
     background-color: #FFF;
-/*     margin-bottom: 50px; */
+    margin-bottom: 0px;
 }
 
 .intro-header .page-heading,
@@ -552,10 +552,10 @@ button{
 /*    background-color: transparent;*/
     border: none;
     background-color: #00b0ff;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1.2%;
-    padding-bottom: 1.2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     font-size: 14px;
     font-weight: 300;
     color: #FFF;
