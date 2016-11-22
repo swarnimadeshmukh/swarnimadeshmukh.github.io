@@ -51,6 +51,7 @@ h6 {
 
 .intro-header .site-heading .subheading{
      font-family: 'Ubuntu', sans-serif;
+    color: #000;
 }
 .navbar-custom, .post-title, .tags, h3{
          font-family: 'Josefin Sans', sans-serif;
@@ -245,7 +246,7 @@ hr.small {
     .intro-header .page-heading,
     .intro-header .post-heading,
     .intro-header .site-heading {
-        padding-top: 100px;
+        padding-top: 120px;
         padding-bottom:80px;
     }
     .intro-header .page-heading h1,
