@@ -87,7 +87,7 @@ blockquote {
     margin: 0;
     border-left: none;
     margin-top: 2%;
-    text-decoration: none;
+    font-style: normal;
 }
 
 hr.small {
@@ -602,9 +602,7 @@ button:hover{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-hr{
-    border-top: 1px solid #00ACC1;
-}
+
 
 
 
