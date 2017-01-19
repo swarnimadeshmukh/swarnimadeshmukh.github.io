@@ -351,6 +351,7 @@ hr.small {
 .section-heading {
     font-size: 30px;
     font-weight: 500;
+    margin-top: 0px;
 }
 
 .section-subheading {
