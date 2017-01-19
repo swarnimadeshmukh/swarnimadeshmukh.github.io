@@ -350,7 +350,6 @@ hr.small {
 
 .section-heading {
     font-size: 30px;
-    margin-top: 12%;
     font-weight: 500;
 }
 
@@ -603,7 +602,9 @@ button:hover{
     padding-bottom: 5%;
 }
 
-
+.divider{
+    border: 1px solid #00ACC1;
+}
 
 
 section {
