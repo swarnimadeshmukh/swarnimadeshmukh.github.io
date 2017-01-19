@@ -603,9 +603,9 @@ button:hover{
     padding-bottom: 5%;
 }
 
-.divider{
-    border: 1px solid #00ACC1;
-    width: 7%;
+
+.nda{
+    font-style: italic;
 }
 
 
