@@ -237,7 +237,7 @@ hr.small {
 
 .intro-header .page-heading .subheading,
 .intro-header .site-heading .subheading {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.1;
     display: block;
     font-weight: 100;
@@ -579,7 +579,7 @@ button:hover{
 .tags{
     color: #00ACC1;
     font-weight: 300;
-    font-size:18px;
+    font-size: 20px;
 }
 .img-icon{
     max-width: 30%;
