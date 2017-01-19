@@ -50,7 +50,7 @@ h6 {
 }
 
 .intro-header .site-heading .subheading, h3{
-     font-family: 'Ubuntu', sans-serif;
+     font-family: 'Josefin Sans', sans-serif;
     color: #000;
 }
 .navbar-custom, .post-title, .tags{
@@ -67,7 +67,7 @@ p a {
 
 a:focus,
 a:hover {
-    color: #00b0ff;
+    color: #00ACC1;
     text-decoration:none 
 }
 
@@ -84,6 +84,7 @@ blockquote {
     margin: 0;
     border-left: none;
     margin-top: 2%;
+    text-decoration: none;
 }
 
 hr.small {
@@ -130,15 +131,15 @@ hr.small {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    color: #00b0ff;
+    color: #00ACC1;
     background-color: transparent
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-    color: #00b0ff;
+    color: #00ACC1;
 }
 .navbar-default .navbar-brand:hover{
-    color: #00b0ff;
+    color: #00ACC1;
 }
 
 @media only screen and (min-width:768px) {
@@ -153,7 +154,7 @@ hr.small {
     .navbar-custom .navbar-brand:focus,
     .navbar-custom .navbar-brand:hover {
         /*color: rgba(255, 255, 255, .8)*/
-        color: #00b0ff;
+        color: #00ACC1;
     }
     .navbar .nav li a {
         color: #fff;
@@ -162,7 +163,7 @@ hr.small {
     .navbar-custom .nav li a:focus,
     .navbar-custom .nav li a:hover {
         /*color: rgba(255, 255, 255, .8)*/
-        color:#00b0ff;
+        color:#00ACC1;
     }
     
 }
@@ -194,14 +195,14 @@ hr.small {
     }
     .navbar-custom.is-fixed .navbar-brand:focus,
     .navbar-custom.is-fixed .navbar-brand:hover {
-        color: #00b0ff
+        color: #00ACC1
     }
     .navbar-custom.is-fixed .nav li a {
         color: #FFF
     }
     .navbar-custom.is-fixed .nav li a:focus,
     .navbar-custom.is-fixed .nav li a:hover {
-        color: #00b0ff
+        color: #00ACC1
     }
     .navbar-custom.is-visible {
         -webkit-transform: translate3d(0, 100%, 0);
@@ -537,7 +538,7 @@ img{
 }
 
 .resume{
-     background-color: #00b0ff;
+     background-color: #00ACC1;
     color: #ffffff;
     padding-left: 2%;
     padding-right: 2%;
@@ -551,7 +552,7 @@ button{
 /*    border: 1px solid #00b0ff;*/
 /*    background-color: transparent;*/
     border: none;
-    background-color: #00b0ff;
+    background-color: #00ACC1;
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 1.5%;
@@ -564,7 +565,7 @@ button{
 
 
 button:hover{
-    background-color: #00b0ff;
+    background-color: #00ACC1;
     color: #ffffff;
     
 }
@@ -574,7 +575,7 @@ button:hover{
     margin-left: 3%;
 }
 .tags{
-    color: #00b0ff;
+    color: #00ACC1;
     font-weight: 300;
     font-size:18px;
 }
@@ -608,6 +609,7 @@ section {
 /*    padding-left: 10%;*/
 /*    padding-right: 10%;*/
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .text-muted{
