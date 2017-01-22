@@ -562,17 +562,17 @@ img{
 }
 
 button{
-/*    border: 1px solid #00b0ff;*/
-/*    background-color: transparent;*/
-    border: none;
-    background-color: #00ACC1;
+    border: 1px solid #00ACC1;
+    background-color: transparent;
+/*     border: none;
+    background-color: #00ACC1; */
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     font-size: 14px;
     font-weight: 300;
-    color: #FFF;
+    color: #00ACC1;
     text-transform: uppercase
 }
 
