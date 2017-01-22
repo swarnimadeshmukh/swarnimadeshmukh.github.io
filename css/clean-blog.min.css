@@ -4,7 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-a,
+a{
+    color: #00ACC1;
+}
+
 body {
     color: #333;
 }
@@ -34,7 +37,7 @@ footer .copyright {
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight: 200;
     line-height: 150%;
@@ -52,11 +55,11 @@ h6 {
 }
 
 .intro-header .site-heading .subheading, h3{
-     font-family: 'Josefin Sans', sans-serif;
+     font-family: 'HeadingFont', 'Josefin Sans', sans-serif;
     color: #000;
 }
 .navbar-custom, .post-title, .tags{
-         font-family: 'Josefin Sans', sans-serif;
+         font-family: 'HeadingFont', 'Josefin Sans', sans-serif;
 }
 p {
     line-height: 1.9;
@@ -136,7 +139,7 @@ hr.small {
 }
 
 .navbar-custom .nav li a {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'HeadingFont', 'Josefin Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -351,7 +354,7 @@ hr.small {
 .section-heading {
     font-size: 30px;
     font-weight: 500;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .section-subheading {
