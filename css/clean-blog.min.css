@@ -573,8 +573,8 @@ button{
     background-color: #00ACC1; */
     padding-left: 2.5%;
     padding-right: 2.5%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     font-size: 14px;
     font-weight: 300;
     color: #00ACC1;
@@ -587,12 +587,15 @@ button:hover{
     color: #ffffff;
     
 }
-.fa-inverse{
-    color:#222222;
-}
+
 .fa-circle{
     color: #FFFFFF;
 }
+
+.fa-inverse{
+    color:#222222;
+}
+
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
     margin-right: 3%;
 /*    margin-top: 1%;*/
