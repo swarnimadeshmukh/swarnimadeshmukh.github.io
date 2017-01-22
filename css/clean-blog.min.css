@@ -144,7 +144,7 @@ hr.small {
     border: none;
 }
 
-.navbar .nav li a {
+.navbar .navbar-nav li a {
     font-family: 'TagFont', 'Josefin Sans', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
