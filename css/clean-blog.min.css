@@ -241,7 +241,7 @@ hr.small {
 .intro-header .page-heading h1,
 .intro-header .site-heading h1 {
     margin-top: 0;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 2%;
 /*    font-weight: 100;*/
 }
@@ -273,7 +273,7 @@ hr.small {
 }
 
 .intro-header .post-heading h1 {
-    font-size: 35px
+    font-size: 34px
 }
 
 .intro-header .post-heading .meta,
@@ -317,9 +317,9 @@ hr.small {
 
 
 .post-preview>.post-title {
-    font-size: 40px;
+    font-size: 36px;
     text-transform: uppercase;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .post-preview>.post-subtitle {
