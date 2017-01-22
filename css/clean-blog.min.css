@@ -582,6 +582,12 @@ button:hover{
     color: #ffffff;
     
 }
+.fa-inverse{
+    color:#222222;
+}
+.fa-circle{
+    color: #FFFFFF;
+}
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
     margin-right: 3%;
 /*    margin-top: 1%;*/
@@ -605,6 +611,7 @@ button:hover{
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 
 
 .nda{
