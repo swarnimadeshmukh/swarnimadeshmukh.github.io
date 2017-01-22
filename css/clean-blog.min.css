@@ -144,9 +144,10 @@ hr.small {
     border: none;
 }
 
-.navbar-custom .nav li a {
+.navbar .nav li a {
     font-family: 'TagFont', 'Josefin Sans', sans-serif;
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
