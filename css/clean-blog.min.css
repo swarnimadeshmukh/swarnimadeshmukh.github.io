@@ -5,7 +5,7 @@
  */
 
 .link{
-    color: #00ACC1;
+    color: #00C6B4;
 }
 
 body {
@@ -79,7 +79,7 @@ p a {
 
 a:focus,
 a:hover {
-    color: #00ACC1;
+    color: #00C6B4;
     text-decoration:none 
 }
 
@@ -152,15 +152,15 @@ hr.small {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    color: #00ACC1;
+    color: #00C6B4;
     background-color: transparent
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-    color: #00ACC1;
+    color: #00C6B4;
 }
 .navbar-default .navbar-brand:hover{
-    color: #00ACC1;
+    color: #00C6B4;
 }
 
 /* Tiles */
@@ -191,7 +191,7 @@ hr.small {
     .navbar-custom .navbar-brand:focus,
     .navbar-custom .navbar-brand:hover {
         /*color: rgba(255, 255, 255, .8)*/
-        color: #00ACC1;
+        color: #00C6B4;
     }
     .navbar .nav li a {
         color: #fff;
@@ -200,7 +200,7 @@ hr.small {
     .navbar-custom .nav li a:focus,
     .navbar-custom .nav li a:hover {
         /*color: rgba(255, 255, 255, .8)*/
-        color:#00ACC1;
+        color:#00C6B4;
     }
     
 }
@@ -232,14 +232,14 @@ hr.small {
     }
     .navbar-custom.is-fixed .navbar-brand:focus,
     .navbar-custom.is-fixed .navbar-brand:hover {
-        color: #00ACC1
+        color: #00C6B4
     }
     .navbar-custom.is-fixed .nav li a {
         color: #FFF
     }
     .navbar-custom.is-fixed .nav li a:focus,
     .navbar-custom.is-fixed .nav li a:hover {
-        color: #00ACC1
+        color: #00C6B4
     }
     .navbar-custom.is-visible {
         -webkit-transform: translate3d(0, 100%, 0);
@@ -576,7 +576,7 @@ img{
 }
 
 .resume{
-     background-color: #00ACC1;
+     background-color: #00C6B4;
     color: #ffffff;
     padding-left: 2%;
     padding-right: 2%;
@@ -587,7 +587,7 @@ img{
 }
 
 button{
-    border: 1px solid #00ACC1;
+    border: 1px solid #00C6B4;
     background-color: transparent;
 /*     border: none;
     background-color: #00ACC1; */
@@ -597,13 +597,13 @@ button{
     padding-bottom: 1.2%;
     font-size: 14px;
     font-weight: 300;
-    color: #00ACC1;
+    color: #00C6B4;
     text-transform: uppercase
 }
 
 
 button:hover{
-    background-color: #00ACC1;
+    background-color: #00C6B4;
     color: #ffffff;
     
 }
@@ -622,7 +622,7 @@ button:hover{
     margin-left: 3%;
 }
 .tags{
-    color: #00ACC1;
+    color: #00C6B4;
     font-weight: 300;
     font-size: 20px;
 }
