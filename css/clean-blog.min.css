@@ -622,7 +622,7 @@ button:hover{
     margin-left: 3%;
 }
 .tags{
-    color: #00C6B4;
+    color: #00ACC1;
     font-weight: 300;
     font-size: 20px;
 }
@@ -639,8 +639,6 @@ button:hover{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
-
 
 .nda{
     font-style: italic;
