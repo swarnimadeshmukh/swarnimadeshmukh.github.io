@@ -33,7 +33,7 @@ h6 {
 .intro-header .page-heading,
 .intro-header .site-heading,
 footer .copyright {
-    text-align: center
+    text-align: left;
 }
 
 body {
