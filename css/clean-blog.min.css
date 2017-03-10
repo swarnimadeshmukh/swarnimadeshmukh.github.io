@@ -57,10 +57,11 @@ h6 {
 .intro-header .site-heading .subheading, h3{
      font-family: 'TagFont', 'Josefin Sans', sans-serif;
     letter-spacing: 0.5px;
-    color: #737270;
+    color: #000;
 }
 .navbar-custom, .post-title, .tags{
          font-family: 'TagFont', 'Josefin Sans', sans-serif;
+    color: #737270;
 }
 
 .preview-row h1{
