@@ -78,16 +78,16 @@ p a {
     text-decoration: underline
 }
 
-a:focus,
+/* a:focus,
 a:hover {
     color: #00C6B4;
     text-decoration:none 
-}
+} */
 
-a img:focus,
+/* a img:focus,
 a img:hover {
     cursor: zoom-in
-}
+} */
 
 blockquote {
     color: #212121;
