@@ -141,11 +141,16 @@
                         <li><i class="fa fa-user" aria-hidden="true"></i>   Underwriters at insurance companies</li>
                 </ul>  
                     <img src="img/fico/ficopersona.png" class="img-responsive center-block"/>
+                    
+                    <p>An important part of the design process was meticulously crafting use cases and workflows. This was extremely helpful in ensuring that all the user goals were being met, all the user pain-points were being addressed, and edge cases were being considered. </p>
             
+                     <img src="img/fico/fico_usecase.png" class="img-responsive center-block" style="max-width:40%; height:auto"/>
+                     <img src="img/fico/fico_workflow.png" class="img-responsive center-block" style="max-width:40%; height:auto"/>
+<!--                      <img src="img/fico/gauge.png" class="img-responsive center-block" style="max-width:40%; height:auto"/> -->
                 <h2 class="section-heading" style="margin-top:10%">Planning the design approach</h2>
                 <hr/>
                 
-                <p>The entire application was broken down into specific features that were implemented in parallel work streams. The design phase for each feature was an iterative process of sketching, wireframing and prototyping while gaining consensus from the stakeholders and approval from the leadership. Once a design was finalized, it was handed over to the developers to implement. As we worked on the net feature in the pipeline, there was continual interaction with developers to ensure that the implementation aligned with the design. </p>
+                <p>The entire application was broken down into specific features that were implemented in parallel work streams. The design phase for each feature was an iterative process of sketching, wireframing and interactive prototyping while gaining consensus from the stakeholders and approval from the leadership. Once a design was finalized, it was handed over to the developers to implement. As we worked on the net feature in the pipeline, there was continual interaction with developers to ensure that the implementation aligned with the design. </p>
                 
                 <p>A fixed launch date made it imperative to strike the right balance between customer goals and business goals. The high-level design strategy was basically finding the sweet spot between creating striking visual representations that were intuitive for the user to comprehend, while maintaining the utility of the data and adhering to a comprehensive style guide that FICO had in place.  </p>
                 
@@ -154,8 +159,10 @@
                 <h2 class="section-heading">Designing the experience</h2>
                 <hr/>
                 
-                    <p>The next step was to delineate the site navigation. To ensure and organized and easy-to-follow flow, we drew from the user experience map to plot logical touchpoints in a user’s journey while interacting with the website, and leveraged card-sorting to finalize the sitemap. </p>
+                    <p>The next step was to delineate the site navigation. To ensure and organized and easy-to-follow flow, we drew from our initial research to plot logical touchpoints in a user’s journey while interacting with the website, and leveraged card-sorting to finalize the information architecture. This helped delineate the sitemap for the application. </p>
 
+                     <img src="img/fico/fico_sitemap.png" class="img-responsive center-block" style="max-width:40%; height:auto"/>
+                    
                     <p>Once a basic outline of the website was in place, we started to dive into the design of individual pages. We initiated the design of Profile before Portrait, since it had more layers and elements that could be reused in Portrait. We followed an approach where we started designing from right to left of the sitemap, focusing on web pages at the granular level first, moving up towards the homepage. The first page we designed was the individual profile of any organization.</p>
 
 
@@ -169,32 +176,38 @@
                     
                 <p>Next, we moved to the dashboard, which was an overview of all the portfolios that could be logically organized into profiles, represented in the form of tiles. We iterated through several sketches to determine the level of detail we wanted to display in each tile, with a focus on enough information to provide a quick summary of that portfolio, but not so much as to overload the user. After several discussions, we settled on providing a visual representation of the distribution of security scores for all the profiles within the portfolio and a list of top 3 profiles for that portfolio, arranged in descending order.</p>
                 
-                <p>We moved on to the landing page, that would offer an entry point into the different applications in this suite. Essentially, we had two layouts that emerged from a group brainstorm. Both had icons to represent and launch the products. The subtle difference lay in the fact that the first merely informed the user that the two products had advanced versions they hadn’t subscribed to (clean and minimal), while the second outlined an additional description of the features each of the advanced versions offered (text-heavy). We performed A/B testing with users and observed that the latter garnered a higher conversion rate. We noticed that detailing out advanced features that they were missing out on piqued their curiosity, as opposed to merely the knowledge of the existence of these versions. 
+                <p>We moved on to the landing page, that would offer an entry point into the different applications in this suite. Essentially, we had two layouts that emerged from a group brainstorm. Both had icons to represent and launch the products. The subtle difference lay in the fact that the first merely informed the user that the two products had advanced versions they hadn’t subscribed to (clean and minimal), while the second outlined an additional description of the features each of the advanced versions offered (text-heavy). At this point, A/B testing was highly insightful in determining the next step in design. We observed that the latter design garnered a higher conversion rate. We noticed that detailing out advanced features that they were missing out on piqued their curiosity, as opposed to merely the knowledge of the existence of these versions. 
                 </p>
                 
+<!--                  <img src="img/fico/fico_ab.png" class="img-responsive center-block" style="max-width:40%; height:auto"/>     -->
                 
-                <p>There were several other tasks that I created user flows, wireframes, and high-fidelity prototypes for: 
+                <p>There were several other tasks that I created user flows, wireframes, and interactive prototypes for: 
                 </p>
                 
                   <ul style="list-style:disc">
-                        <li>Setting up a new profile.</li>
+                        <li>Setting up a new profile and portfolio.</li>
                         <li>Filtering and sorting records on individual data pages. </li>
                         <li>A variety of administration tasks such as CRUD operation for users, configuring alerts and reports, setting up network prefixes and domains, and customizing integrations.</li>
                         <li>A variety of user tasks such as downloading CSV files, sending emails, and creating tickets.</li>
                       <li>Workflows for forgot password and two-factor authentication.</li>
+                      <li>Designing a download-ready PDF version of all the complex information on the application.</li>
                     </ul>  
                 
                     <h2 class="section-heading">Usability testing</h2>
                 <hr/>
                 
-                    <p>Once a stable version of the website was set up in the test environment, we decided to employ usability testing to understand how real users interacted with the website, and to identify potential usability issues. We initiated the process by identifying a four users in different organizations, sorted each user into a persona to understand their goals and motivations for using the system and draft a customized set of tasks for users belonging to a persona. We conducted online usability tests with these participants via WebEx. We also used the System Usability Scale to gauge the response of different users after interacting with the site. </p>
-                 <p>The usability tests revealed that:</p>
+                    <p>Once a stable version of the website was set up in the test environment, we decided to employ usability testing to understand how real users interacted with the website, and to identify potential usability issues. I initiated the process by identifying a four users in different organizations, sorted each user into a persona to understand their goals and motivations for using the system and draft a customized set of tasks for users belonging to a persona. I conducted online usability tests with these participants via WebEx. I also used the System Usability Scale to quantify the experience of different users after interacting with the site. </p>
+               
+                     <p>During usability testing, we also incorporated first click testing for validating some of the information architecture and navigation decisions.</p>
+                    <p>The usability tests revealed that:</p>
                     <ul>
                         <li><i class="fa fa-frown-o" aria-hidden="true"></i>Customers found the onboarding process to be rather tedious and confusing, with the need for more explicit instructions. </li>
                         <li><i class="fa fa-meh-o" aria-hidden="true"></i>Customers felt that navigating to specific data pages was time-consuming due to the lack of intuitive names.</li>
                         <li> <i class="fa fa-smile-o" aria-hidden="true"></i>Customers were excited about the new features introduced. </li>
                     </ul> 
                 
+                   
+                      
                 <h2 class="section-heading">Mapping the customer experience</h2>
                 <hr/>
                 
@@ -202,7 +215,7 @@
                 
                 <img src="img/fico/ux_map.png" class="img-responsive center-block"/>
                     
-                <p>The usability tests were a catalyst that triggered the next version of the product, as we collected valuable pointers that we will subsequently implement to improve the user experience.
+                <p>After the initial launch, we dived into some web analytics data like clickthrough rate and scroll tracking. This research along with data from the usability tests was a catalyst that triggered the next version of the product. We collected valuable pointers that we will subsequently implement to improve the user experience.
                     </p>
                     
                     <h2 class="section-heading">What did I learn?</h2>
