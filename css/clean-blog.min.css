@@ -76,7 +76,7 @@ h6 {
     font-size: 16px;
     border-radius: 8px;
     background: #00C6B4;
-    padding: 2%; 
+    padding: 0px; 
 }
 
 .preview-row h1{
@@ -148,7 +148,7 @@ hr.small {
 
 .navbar-custom .navbar-header .navbar-toggle {
     background-color: #000;
-    color: #FFF;
+    color: #000;
     font-weight: 800;
     text-transform: uppercase;
     font-size: 12px;
