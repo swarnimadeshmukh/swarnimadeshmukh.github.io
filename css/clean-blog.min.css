@@ -54,18 +54,24 @@ h6 {
     color: #000;
 }
 
-.intro-header .site-heading .subheading, h3{
+.intro-header .site-heading, h3{
      font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 0.5px;
+/*     letter-spacing: 0.5px; */
+    color: #000;
+}
+
+.subheading{
     color: #6e6d6a;
 }
+
 .navbar-custom, .post-title, .tags{
          font-family: 'Josefin Sans', sans-serif;
     color: #737270;
 }
 .tags{
-    font-size: 14px;
-    color:
+    color: #00C6B4;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .preview-row h1{
@@ -180,8 +186,8 @@ hr.small {
 }
 
 .preview-tile:hover{
-    box-shadow: 2px 2px 2px 2px #cccccc;
-    padding: 4%;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+    padding: 2%;
 }
 
 
@@ -627,11 +633,7 @@ button:hover{
 /*    margin-top: 1%;*/
     margin-left: 3%;
 }
-.tags{
-    color: #00C6B4;
-    font-weight: 300;
-    font-size: 20px;
-}
+
 .img-icon{
     max-width: 30%;
     height: auto;
