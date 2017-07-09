@@ -74,9 +74,6 @@ h6 {
     color: #00C6B4;
     font-weight: 300;
     font-size: 16px;
-    border-radius: 8px;
-    background: #00C6B4;
-    padding: 0px; 
 }
 
 .preview-row h1{
@@ -174,6 +171,7 @@ hr.small {
     color: #fff;
     background-color: #00C6B4;
     border-radius: 10px;
+    padding: 2%;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
