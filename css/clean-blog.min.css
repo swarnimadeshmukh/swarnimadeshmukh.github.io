@@ -50,18 +50,22 @@ body {
 h1,
 h2,
 h6 {   
-    font-family: 'HeadingFont', 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #000;
 }
 
 .intro-header .site-heading .subheading, h3{
-     font-family: 'TagFont', 'Josefin Sans', sans-serif;
+     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 0.5px;
-    color: #000;
+    color: #6e6d6a;
 }
 .navbar-custom, .post-title, .tags{
-         font-family: 'TagFont', 'Josefin Sans', sans-serif;
+         font-family: 'Josefin Sans', sans-serif;
     color: #737270;
+}
+.tags{
+    font-size: 14px;
+    color:
 }
 
 .preview-row h1{
@@ -172,7 +176,7 @@ hr.small {
     padding: 7%;
     margin-top: 3%;
     margin-bottom: 3%;
-    border: 1px solid #e8e8e8;
+/*     border: 1px solid #e8e8e8; */
 }
 
 .preview-tile:hover{
