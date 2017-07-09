@@ -39,7 +39,7 @@ footer .copyright {
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 100;
     line-height: 150%;
     -webkit-tap-highlight-color: #0085A1
 }
@@ -61,11 +61,13 @@ h6 {
 }
 
 .subheading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
     color: #6e6d6a;
 }
 
 .navbar-custom, .post-title, .tags{
-         font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #737270;
 }
 .tags{
@@ -126,9 +128,9 @@ hr.small {
     text-align: center;
 }
 .navbar{
-    background-color: #000;
+    background-color: #fff;
 /*    opacity: 0.5;*/
-    border: none;
+    border-bottom: 1px solid #cccccc;
     
 }
 /*
@@ -164,8 +166,9 @@ hr.small {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    color: #00C6B4;
-    background-color: transparent
+/*     color: #00C6B4; */
+    color: #000;
+    background-color: #00C6B4;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
