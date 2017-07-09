@@ -176,7 +176,7 @@ hr.small {
 }
 
 .preview-tile:hover{
-    box-shadow: 5px 5px 5px 5px #bbbbbb;
+    box-shadow: 2px 2px 2px 2px #cccccc;
     padding: 4%;
 }
 
