@@ -210,7 +210,7 @@ hr.small {
         color: #00C6B4;
     }
     .navbar .nav li a {
-        color: #fff;
+        color: #222;
         padding: 20px
     }
     .navbar-custom .nav li a:focus,
