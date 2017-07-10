@@ -130,7 +130,9 @@ hr.small {
     background-color: #fff;
 /*    opacity: 0.5;*/
     border-bottom: 1px solid #cccccc;
-    
+    box-shadow: 5px 5px 5px #999; 
+     -moz-box-shadow: 5px 5px 5px #999;
+     -webkit-box-shadow: 5px 5px 5px #999;
 }
 /*
 .navbar-custom {
@@ -168,8 +170,8 @@ hr.small {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     color: #00C6B4;
     background-color: transparent;
-    border-bottom: 2px solid #00C6B4;
-    box-shadow: 1px 1px 1px 1px #cccccc;
+/*     border-bottom: 2px solid #00C6B4; */
+/*     box-shadow: 1px 1px 1px 1px #cccccc; */
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
