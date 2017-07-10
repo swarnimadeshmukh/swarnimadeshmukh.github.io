@@ -60,7 +60,7 @@ h6 {
     color: #000;
 }
 
-.subheading{
+.intro-header .site-heading .subheading, .intro-header .page-heading .subheading{
     font-family: 'Josefin Sans', sans-serif;
     color: #6e6d6a;
 }
@@ -130,7 +130,7 @@ hr.small {
     background-color: #fff;
 /*    opacity: 0.5;*/
     border-bottom: 1px solid #cccccc;
-    box-shadow: 5px 5px 5px #999; 
+    box-shadow: 2px 2px 2px #cccccc; 
      -moz-box-shadow: 5px 5px 5px #999;
      -webkit-box-shadow: 5px 5px 5px #999;
 }
