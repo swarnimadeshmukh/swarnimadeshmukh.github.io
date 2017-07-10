@@ -69,29 +69,10 @@ h6 {
     font-family: 'Josefin Sans', sans-serif;
     color: #737270;
 }
-/* .tags{
+.tags{
     color: #00C6B4;
     font-weight: 300;
     font-size: 18px;
-} */
-
-.tags {
-  list-style: none;
-  margin: 0;
-  overflow: hidden; 
-  padding: 0;
-}
-
-.tag {
-      background: #00C6B4;
-      border-radius: 8px;
-      border: 1px solid #00C6B4;
-      color: #00b0ff;
-      display: inline-block;
-      line-height: 26px;
-      padding: 0.5% 2% 0.5% 2%;
-      position: relative;
-      margin: 0 1% 1% 0;
 }
 
 .preview-row h1{
