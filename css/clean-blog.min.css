@@ -49,6 +49,9 @@ body {
 
 h1,
 h2,
+h3,
+h4,
+h5,
 h6 {   
     font-family: 'Josefin Sans', sans-serif;
     color: #000;
@@ -60,7 +63,7 @@ h6 {
     color: #000;
 }
 
-.intro-header .site-heading .subheading, .intro-header .page-heading .subheading{
+.intro-header .site-heading .subheading {
     font-family: 'Josefin Sans', sans-serif;
     color: #6e6d6a;
 }
