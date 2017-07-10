@@ -72,11 +72,11 @@ h6 {
 .tags{
     color: #00C6B4;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .preview-row h1{
-    font-family: 'TagFont', 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 p {
