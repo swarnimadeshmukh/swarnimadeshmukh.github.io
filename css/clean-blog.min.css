@@ -81,11 +81,12 @@ h6 {
 
 .project-tag{
   display: inline-block;
-  color: #00C6B4;
+  color: #FFFFFF;
+  background-color: #00C6B4
   border: 1px solid #00C6B4;
   border-radius: 4px;
-  padding: 1%;
-  margin: 1%;
+  padding: 0.5% 1.2%;
+  margin: 0.5%;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
 }
@@ -592,6 +593,7 @@ img::-moz-selection {
 ul{
     list-style: none;
     margin-bottom: 5%;
+    padding: 0%;
 }
 li{
     margin-top: 1%
