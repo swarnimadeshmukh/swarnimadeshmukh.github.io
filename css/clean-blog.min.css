@@ -80,8 +80,10 @@ h6 {
 
 .projectline{
     width: 10%;
-    background: linear-gradient(to bottom right, red, yellow); 
-    
+    border:none;
+    height:2px;
+    background: #00b0ff;
+    background: linear-gradient(to right, #00b0ff, #00c6a0);
 }
 
 .preview-row h1{
