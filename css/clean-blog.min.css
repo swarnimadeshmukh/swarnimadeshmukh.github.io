@@ -78,6 +78,12 @@ h6 {
     font-size: 18px;
 }
 
+.projectline{
+    width: 10%;
+    background: linear-gradient(to bottom right, red, yellow); 
+    
+}
+
 .preview-row h1{
     font-family: 'Josefin Sans', sans-serif;
 }
