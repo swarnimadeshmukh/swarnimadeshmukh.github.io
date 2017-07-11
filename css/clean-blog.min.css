@@ -78,6 +78,15 @@ h6 {
     font-size: 18px;
 }
 
+.project-tag{
+  display: inline-block;
+  color: #00C6B4;
+  border: 1px solid #00C6B4;
+  border-radius: 4px;
+  padding: 1% 2%;
+  margin: 1%;
+}
+
 .projectline{
     width: 10%;
     border:none;
