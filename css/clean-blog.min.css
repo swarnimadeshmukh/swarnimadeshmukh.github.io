@@ -53,24 +53,24 @@ h3,
 h4,
 h5,
 h6 {   
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'HeadingFont', 'Josefin Sans', sans-serif;
     color: #000;
 }
 
 .intro-header .site-heading, h3{
-     font-family: 'Josefin Sans', sans-serif;
+     font-family: 'HeadingFont', 'Josefin Sans', sans-serif;
 /*     letter-spacing: 0.5px; */
     color: #000;
 }
 
 .intro-header .site-heading .subheading {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'TagFont', 'Josefin Sans', sans-serif;
     color: #6e6d6a;
     font-weight:300;
 }
 
 .navbar-custom, .post-title, .tags{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'TagFont', 'Josefin Sans', sans-serif;
     color: #737270;
 }
 .tags{
@@ -87,7 +87,7 @@ h6 {
   border-radius: 4px;
   padding: 0.5% 1.2%;
   margin: 0.5%;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'TagFont', 'Josefin Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -100,7 +100,7 @@ h6 {
 }
 
 .preview-row h1{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'HeadingFont', 'Josefin Sans', sans-serif;
 }
 
 p {
