@@ -38,7 +38,7 @@ footer .copyright {
 
 body {
     font-family: 'PT Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
     line-height: 150%;
     -webkit-tap-highlight-color: #0085A1
@@ -65,7 +65,7 @@ h6 {
 
 .intro-header .site-heading .subheading {
     font-family:'Josefin Sans', sans-serif;
-    color: #6e6d6a;
+    color: #888888;
     font-weight:300;
 }
 
@@ -88,7 +88,7 @@ h6 {
   padding: 0.3% 1%;
   margin: 0.5%;
   font-family:'Josefin Sans', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .projectline{
