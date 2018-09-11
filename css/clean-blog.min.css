@@ -153,10 +153,10 @@ hr.small {
 .navbar{
     background-color: #fff;
 /*    opacity: 0.5;*/
-    border-bottom: 1px solid #cccccc;
-    box-shadow: 2px 2px 2px #cccccc; 
-     -moz-box-shadow: 2px 2px 2px #cccccc;
-     -webkit-box-shadow: 2px 2px 2px #cccccc;
+/*     border-bottom: 1px solid #cccccc; */
+    box-shadow: 0 4px 18px rgba(0,0,0,.1);
+     -moz-box-shadow: 0 4px 18px rgba(0,0,0,.1);
+     -webkit-box-shadow: 0 4px 18px rgba(0,0,0,.1);
 }
 /*
 .navbar-custom {
